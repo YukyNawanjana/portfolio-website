@@ -8,9 +8,8 @@ export default function Intro() {
 
     useEffect(()=>{
         init(textRef.current,{
-            showCursor: false,
-            backDelay: 1500, 
             showCursor: true,
+            backDelay: 1500, 
             strings: ["Developer", "Designer", "Content Creator"],
         });
     },[]);
